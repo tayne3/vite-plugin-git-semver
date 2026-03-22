@@ -1,3 +1,4 @@
+
 # Logs
 logs
 *.log
@@ -122,8 +123,12 @@ dist
 # TernJS port file
 .tern-port
 
-# Stores VSCode versions used for testing VSCode extensions
+# IDE
+.vscode/
+!.vscode/extensions.json
 .vscode-test
+.idea/
+.discard/
 
 # yarn v3
 .pnp.*
@@ -137,3 +142,7 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# OS
+.DS_Store
+Thumbs.db
